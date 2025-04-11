@@ -1,12 +1,13 @@
+
 {
   "name": "chaicode",
   "version": "1.0.0",
   "description": "it is database setup",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-module src/index.js"
-  },
+ "scripts": {
+  "dev": "nodemon -r dotenv/config src/index.js"
+},
   "keywords": [
     "javascript",
     "backend"
